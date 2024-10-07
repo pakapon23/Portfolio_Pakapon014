@@ -1,0 +1,50 @@
+body {
+    font-family: Garamond, "Times New Roman", Times, serif;
+    background: linear-gradient(to right, #f5bbe3, #93d3ec);
+    color: #333333;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    min-height: 50px;
+}
+
+textarea {
+    width: 50%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #6952d1;
+    color: #ffffff;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #fffbfb;
+    margin: 20px 0;
+}

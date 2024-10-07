@@ -1,0 +1,168 @@
+body{
+	background-color: #BF1304;
+}
+
+h1{
+	color: #591202;
+}
+
+h2, h3{
+	text-align: left;
+	margin: 10px;
+	color: #591202;
+	background-color: #af8662;
+}
+
+h4, h5{
+	text-align: left;
+	margin: 10px;
+	color: #591202;
+}
+
+ul, ol{
+	text-align: left;
+	margin: 10px;
+	padding-left: 20px;
+	color: #591202;
+}
+
+div{
+	font-family: Garamond, "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+img{
+	width: 100%;
+	height: 550px;
+	border: 3px solid #BF4904;
+	padding: 5px;
+	border-radius: 50px;
+}
+
+.pic_ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pic_ > div {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.grid-container {
+	display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+}
+
+.grid-container > div{
+    font-size: 20px;
+    text-align: center;
+    background-color:#D9A87E;
+}
+
+#header{
+	grid-column: 1 / span 4;
+}
+
+#main1{
+	grid-column: 1 / span 1;
+	padding-top: 20px;
+}
+
+#main2{
+	grid-column: 2 / span 3;
+}
+
+#main3{
+	grid-column: 1 / span 4;
+}
+
+#main4{
+	grid-column: 1 / span 2;
+}
+
+#main5{
+	grid-column: 3 / span 2;
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-gap: 10px;
+	}
+	
+	.grid-container > div{
+		font-size: 20px;
+		text-align: center;
+		background-color:#D9A87E;
+	}
+	
+	#header{
+		grid-column: 1 / span 4;
+	}
+	
+	#main1{
+		grid-column: 1 / span 2;
+		padding-top: 20px;
+	}
+	
+	#main2{
+		grid-column: 3 / span 2;
+	}
+	
+	#main3{
+		grid-column: 1 / span 4;
+	}
+	
+	#main4{
+		grid-column: 1 / span 4;
+	}
+	
+	#main5{
+		grid-column: 1 / span 4;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 25% 25% 25% 25%;
+		grid-gap: 10px;
+	}
+	
+	.grid-container > div{
+		font-size: 20px;
+		text-align: center;
+		background-color:#D9A87E;
+	}
+	
+	#header{
+		grid-column: 1 / span 4;
+	}
+	
+	#main1{
+		grid-column: 1 / span 4;
+		padding-top: 20px;
+	}
+	
+	#main2{
+		grid-column: 1 / span 4;
+	}
+	
+	#main3{
+		grid-column: 1 / span 4;
+	}
+	
+	#main4{
+		grid-column: 1 / span 4;
+	}
+	
+	#main5{
+		grid-column: 1 / span 4;
+	}
+}

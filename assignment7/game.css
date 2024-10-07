@@ -1,0 +1,55 @@
+#container {
+	margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#layer {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.square {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border: 2px solid black; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.square:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 10px #0000004d;
+}
+
+.maroon{
+    background-color: maroon; 
+}
+.lightgreen{
+    background-color: lightgreen; 
+}
+
+.magenta{
+    background-color: magenta; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f5bbe3, #93d3ec);
+}
+
+fieldset {
+    border: 2px solid #000000;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-size: 1.5em;
+    color: #000000;
+}
